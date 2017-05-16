@@ -25,6 +25,11 @@ h1, h3 {
     align-content: center;
     text-align: center;
 }
+.card2 {
+    background-color: #23272A !important;
+    align-content: center;
+    text-align: center;
+}
 .card-title {
     color: darkorange;
     font-size: 2em;
@@ -47,7 +52,7 @@ h1, h3 {
     display: inline-block;
 }
 .card-action i {
-    color: #fff;
+    color: darkorange;
 }
 .card-action i:hover {
     resize: 1.2;
@@ -82,8 +87,77 @@ h1, h3 {
   }
 }
 .text-center {
-  text-align: center;
+  text-align: center;   
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 1.6s;
+  -MS-animation-duration: 1s;
+  -MS-animation-delay: 1.6s;
+  -o-animation-duration: 1s;
+  -o-animation-delay: 1.6s;
 }
 .text-center a {
     color: darkorange;
+}
+
+.card:nth-last-child(6) {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 1s; 
+  -MS-animation-duration: 1s;
+  -MS-animation-delay: 1s; 
+  -o-animation-duration: 1s;
+  -o-animation-delay: 1s;     
+}
+.card:nth-last-child(4) {
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-duration: 1.2s;
+  -moz-animation-delay: 1.2s;
+  -MS-animation-duration: 1.2s;
+  -MS-animation-delay: 1.2s;
+  -o-animation-duration: 1.2s;
+  -o-animation-delay: 1.2s;
+}
+.card:nth-last-child(2) {
+  -webkit-animation-duration: 1.4s;
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-duration: 1.4s;
+  -moz-animation-delay: 1.4s;
+  -MS-animation-duration: 1.4s;
+  -MS-animation-delay: 1.4s;
+  -o-animation-duration: 1.4s;
+  -o-animation-delay: 1.4s;
+}
+.card:nth-last-child(3) {
+  -webkit-animation-duration: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-duration: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -MS-animation-duration: 1.8s;
+  -MS-animation-delay: 1.8s;
+  -o-animation-duration: 1.8s;
+  -o-animation-delay: 1.8s;
+}
+.card:nth-last-child(5) {
+  -webkit-animation-duration: 1.6s;
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-duration: 1.6s;
+  -moz-animation-delay: 1.6s;
+  -MS-animation-duration: 1.6s;
+  -MS-animation-delay: 1.6s;
+  -o-animation-duration: 1.6s;
+  -o-animation-delay: 1.6s;
+}
+.card:nth-last-child(1) {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 2s;
+  -MS-animation-duration: 2s;
+  -MS-animation-delay: 2s;
+  -o-animation-duration: 2s;
+  -o-animation-delay: 2s;
 }
