@@ -72,12 +72,72 @@ h1, h3 {
     column-count: 1;
   }
 }
-@media only screen and (min-width: 601px) {
-  .cards-container {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
+@media only screen and (max-width: 990px) and (min-width: 601px) {
+    .cards-container {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+     }
+    .card:nth-last-child(6) { /*  FPB.im  */
+      -webkit-animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-duration: 1s;
+      -moz-animation-delay: 1s; 
+      -MS-animation-duration: 1s;
+      -MS-animation-delay: 1s; 
+      -o-animation-duration: 1s;
+      -o-animation-delay: 1s;     
+    }
+    .card:nth-last-child(4) { /*  Portfolio.FrancisPBaker.com  */
+      -webkit-animation-duration: 1.8s;
+      -webkit-animation-delay: 1.8s;
+      -moz-animation-duration: 1.8s;
+      -moz-animation-delay: 1.8s;
+      -MS-animation-duration: 1.8s;
+      -MS-animation-delay: 1.8s;
+      -o-animation-duration: 1.8s;
+      -o-animation-delay: 1.8s;
+    }
+    .card:nth-last-child(2) { /*  FrancisPBaker.com  */
+      -webkit-animation-duration: 1.6s;
+      -webkit-animation-delay: 1.6s;
+      -moz-animation-duration: 1.6s;
+      -moz-animation-delay: 1.6s;
+      -MS-animation-duration: 1.6s;
+      -MS-animation-delay: 1.6s;
+      -o-animation-duration: 1.6s;
+      -o-animation-delay: 1.6s;        
+    }
+    .card:nth-last-child(3) { /*  Creator.House  */
+      -webkit-animation-duration: 1.2s;
+      -webkit-animation-delay: 1.2s;
+      -moz-animation-duration: 1.2s;
+      -moz-animation-delay: 1.2s;
+      -MS-animation-duration: 1.2s;
+      -MS-animation-delay: 1.2s;
+      -o-animation-duration: 1.2s;
+      -o-animation-delay: 1.2s;    
+    }
+    .card:nth-last-child(5) { /*  XMPP.in  */
+      -webkit-animation-duration: 1.4s;
+      -webkit-animation-delay: 1.4s;
+      -moz-animation-duration: 1.4s;
+      -moz-animation-delay: 1.4s;
+      -MS-animation-duration: 1.4s;
+      -MS-animation-delay: 1.4s;
+      -o-animation-duration: 1.4s;
+      -o-animation-delay: 1.4s;
+    }
+    .card:nth-last-child(1) { /*  Userscripts  */
+      -webkit-animation-duration: 2s;
+      -webkit-animation-delay: 2s;
+      -moz-animation-duration: 2s;
+      -moz-animation-delay: 2s;
+      -MS-animation-duration: 2s;
+      -MS-animation-delay: 2s;
+      -o-animation-duration: 2s;
+      -o-animation-delay: 2s;
+    }    
 }
 @media only screen and (min-width: 993px) {
   .cards-container {
@@ -101,7 +161,7 @@ h1, h3 {
     color: darkorange;
 }
 
-.card:nth-last-child(6) {
+.card:nth-last-child(6) { /*  FPB.im  */
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 1s;
   -moz-animation-duration: 1s;
@@ -111,7 +171,7 @@ h1, h3 {
   -o-animation-duration: 1s;
   -o-animation-delay: 1s;     
 }
-.card:nth-last-child(4) {
+.card:nth-last-child(4) { /*  Portfolio.FrancisPBaker.com  */
   -webkit-animation-duration: 1.2s;
   -webkit-animation-delay: 1.2s;
   -moz-animation-duration: 1.2s;
@@ -121,7 +181,7 @@ h1, h3 {
   -o-animation-duration: 1.2s;
   -o-animation-delay: 1.2s;
 }
-.card:nth-last-child(2) {
+.card:nth-last-child(2) { /*  FrancisPBaker.com  */
   -webkit-animation-duration: 1.4s;
   -webkit-animation-delay: 1.4s;
   -moz-animation-duration: 1.4s;
@@ -131,7 +191,7 @@ h1, h3 {
   -o-animation-duration: 1.4s;
   -o-animation-delay: 1.4s;
 }
-.card:nth-last-child(3) {
+.card:nth-last-child(3) { /*  Creator.House  */
   -webkit-animation-duration: 1.8s;
   -webkit-animation-delay: 1.8s;
   -moz-animation-duration: 1.8s;
@@ -141,7 +201,7 @@ h1, h3 {
   -o-animation-duration: 1.8s;
   -o-animation-delay: 1.8s;
 }
-.card:nth-last-child(5) {
+.card:nth-last-child(5) { /*  XMPP.in  */
   -webkit-animation-duration: 1.6s;
   -webkit-animation-delay: 1.6s;
   -moz-animation-duration: 1.6s;
@@ -151,7 +211,7 @@ h1, h3 {
   -o-animation-duration: 1.6s;
   -o-animation-delay: 1.6s;
 }
-.card:nth-last-child(1) {
+.card:nth-last-child(1) { /*  Userscripts  */
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 2s;
   -moz-animation-duration: 2s;
